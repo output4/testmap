@@ -1,0 +1,18 @@
+* {margin:0; padding:0; text-indent:0; }
+.s1 { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 20pt; }
+.p, p { color: #212121; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; margin:0pt; }
+h1 { color: #212121; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 11pt; }
+.s2 { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 16pt; }
+.s3 { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 11pt; }
+.s4 { color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
+li {display: block; }
+#l1 {padding-left: 0pt;counter-reset: c1 1; }
+#l1> li>*:first-child:before {counter-increment: c1; content: counter(c1, decimal)". "; color: #212121; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
+#l1> li:first-child>*:first-child:before {counter-increment: c1 0;  }
+#l2 {padding-left: 0pt;counter-reset: c2 1; }
+#l2> li>*:first-child:before {counter-increment: c2; content: counter(c2, lower-latin)". "; color: #212121; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
+#l2> li:first-child>*:first-child:before {counter-increment: c2 0;  }
+li {display: block; }
+#l3 {padding-left: 0pt;counter-reset: d1 1; }
+#l3> li>*:first-child:before {counter-increment: d1; content: counter(d1, decimal)". "; color: #212121; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
+#l3> li:first-child>*:first-child:before {counter-increment: d1 0;  }
